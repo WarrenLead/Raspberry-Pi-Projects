@@ -3,9 +3,11 @@ Wazza's Thermal Detector v1.0
 
 This is my first Raspberry Pi project for the Pico.  
 
-It's for detecting thermals on the ground for flying model aircraft.
+It's for detecting thermals on the ground for flying model aircraft.  The temp is displayed on the OLED display and there is a temp plotter with 4 deg c scale that is updated every second. You can see small rises in temp which may indicate a thermal coming. There is also an alarm that can be turned on and off which indicates fast rises or falls in temp. The range of the p[lotter is 4 deg c and will reset if the temp incerases or decreases by + or - 2 deg C.
 
-The device nees to be small and is powered by a Lipo Battery
+The device nees to be small and is powered by a Lipo Battery. It can be attached to a streamer pole but the the temp sensor needs a shield around it to shade it from the sun.
+
+It seems to work quite well.
 
 Parts needed are: 
 
